@@ -1,0 +1,158 @@
+<div class="form-body">
+  <div class="row">
+    <div class="form-holder">
+      <div class="form-content">
+        <div class="form-items">
+          <h3>Registrazione</h3>
+          <form class="requires-validation" novalidate>
+            <!-- Nome -->
+            <div class="col-md-12">
+              <input
+                class="form-control"
+                type="text"
+                name="name"
+                placeholder="Nome"
+                required
+              />
+              <div class="valid-feedback">Nome</div>
+              <div class="invalid-feedback"></div>
+            </div>
+            <!-- cognome -->
+            <div class="col-md-12">
+              <input
+                class="form-control"
+                type="text"
+                name="name"
+                placeholder="Cognome"
+                required
+              />
+              <div class="valid-feedback">Cognome</div>
+              <div class="invalid-feedback"></div>
+            </div>
+            <!-- password -->
+            <div class="col-md-12">
+              <input
+                class="form-control"
+                type="password"
+                name="password"
+                placeholder="Password"
+                required
+              />
+              <div class="valid-feedback">Password</div>
+              <div class="invalid-feedback"></div>
+            </div>
+            <!-- conferma password -->
+            <div class="col-md-12">
+              <input
+                class="form-control"
+                type="password"
+                name="password"
+                placeholder="Conferma Password"
+                required
+              />
+              <div class="valid-feedback">Conferma Password</div>
+              <div class="invalid-feedback"></div>
+            </div>
+            <!-- genere -->
+            <div class="col-md-12 mt-3">
+              <label class="mb-3 mr-1" for="gender">Genere: </label>
+
+              <input
+                type="radio"
+                class="btn-check"
+                name="gender"
+                id="male"
+                autocomplete="off"
+                required
+              />
+              <label class="btn btn-sm btn-outline-secondary" for="male"
+                >Maschio</label
+              >
+
+              <input
+                type="radio"
+                class="btn-check"
+                name="gender"
+                id="female"
+                autocomplete="off"
+                required
+              />
+              <label class="btn btn-sm btn-outline-secondary" for="female"
+                >Femmina</label
+              >
+
+              <input
+                type="radio"
+                class="btn-check"
+                name="gender"
+                id="secret"
+                autocomplete="off"
+                required
+              />
+              <label class="btn btn-sm btn-outline-secondary" for="secret"
+                >Altro</label
+              >
+            </div>
+            <!-- immagine -->
+            <div class="col-md-12">
+              <input
+                class="form-control"
+                type="file"
+                name="immagine"
+                placeholder="Immagine profilo"
+                required
+              />
+              <div class="valid-feedback">Immagine profilo</div>
+              <div class="invalid-feedback"></div>
+            </div>
+            <!-- biografia -->
+            <div class="col-md-12">
+              <input
+                class="form-control"
+                type="textarea"
+                name="name"
+                placeholder="Biografia"
+                required
+              />
+              <div class="valid-feedback">Biografia</div>
+              <div class="invalid-feedback"></div>
+            </div>
+            <!-- username -->
+            <div class="col-md-12">
+              <input
+                class="form-control"
+                type="text"
+                name="name"
+                placeholder="Username"
+                required
+              />
+              <div class="valid-feedback">Username</div>
+              <div class="invalid-feedback"></div>
+            </div>
+
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="invalidCheck"
+                required
+              />
+              <br />
+              <label class="form-check-label"
+                >Controlla se i dati sono corretti</label
+              >
+              <div class="invalid-feedback">Inserisci i dati</div>
+            </div>
+
+            <div class="form-button mt-3">
+              <button id="submit" type="submit" class="btn btn-primary">
+                Registrati
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
